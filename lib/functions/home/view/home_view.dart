@@ -70,7 +70,7 @@ class _HomeViewState extends State<HomeView> {
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: () {
-          Get.to(InvoiceView());
+          controller.goToAddInvoiceView(null);
           //Get.to(ProductView());
         },
       ),

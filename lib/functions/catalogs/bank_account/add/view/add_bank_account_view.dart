@@ -22,9 +22,11 @@ class AddBankAccountView extends StatelessWidget {
                 ListTile(
                   leading: const Icon(Icons.account_balance, color: Colors.indigo),
                   title: const Text("Банк"),
-                  subtitle: Text(controller.bankAccount.value.bank!.documentId == null
+                  subtitle: Text(controller.bankAccount.value.bank == null
+                      || controller.bankAccount.value.bank!.documentId == null
                       ? "Банкты таңдаңыз" : controller.bankAccount.value.bank!.name!),
-                  trailing: controller.bankAccount.value.bank!.documentId == null
+                  trailing: controller.bankAccount.value.bank == null ||
+                      controller.bankAccount.value.bank!.documentId == null
                       ? const Icon(Icons.arrow_forward_ios)
                       : const Icon(Icons.done, color: Colors.indigo),
                   onTap: () {
