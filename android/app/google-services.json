@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "984098471954",
+    "project_id": "karzhy-1bc6a",
+    "storage_bucket": "karzhy-1bc6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984098471954:android:ae6a9e11691335675418cb",
+        "android_client_info": {
+          "package_name": "kz.isker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984098471954-aeqoi8hfu4sniosp0fnbpdkq1nicphhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxWOB1fINAJsE8IC5OkJjJV9JKlVKAGT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984098471954-aeqoi8hfu4sniosp0fnbpdkq1nicphhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984098471954:android:96156d9b28208bc75418cb",
+        "android_client_info": {
+          "package_name": "kz.isker.karzhy_frontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984098471954-aeqoi8hfu4sniosp0fnbpdkq1nicphhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxWOB1fINAJsE8IC5OkJjJV9JKlVKAGT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984098471954-aeqoi8hfu4sniosp0fnbpdkq1nicphhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
